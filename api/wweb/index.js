@@ -6,7 +6,9 @@ function initClient() {
   {
     const client = new Client({
       authStrategy: new LocalAuth(),
-      puppeteer: {},
+      puppeteer: {
+        args: ["--no-sandbox"],
+      },
     });
 
     client.initialize();
