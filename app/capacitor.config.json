@@ -1,0 +1,11 @@
+{
+  "appId": "com.speechless.app",
+  "appName": "Speechless",
+  "bundledWebRuntime": false,
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Speechless</string>
+    <string name="title_activity_main">Speechless</string>
+    <string name="package_name">com.speechless.app</string>
+    <string name="custom_url_scheme">com.speechless.app</string>
+</resources>
