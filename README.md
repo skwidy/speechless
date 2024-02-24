@@ -16,8 +16,8 @@ You need a .env file under the folder /api with the key "DEEPGRAM_LOCAL_API_KEY"
 
 - [x] First working version 24 Feb
 - [x] Deploy to an instance (GCP VM)
-- [] Enable or disable for "from me" audio messages
-- [] Enable or Disable the transcript feature in group discussions
+- [ ] Enable or disable for "from me" audio messages
+- [ ] Enable or Disable the transcript feature in group discussions
 
 # Deployment
 
@@ -36,3 +36,5 @@ sudo apt install -y gconf-service libgbm-dev libasound2 libatk1.0-0 libc6 libcai
 I encourage you to install any version of Node (at least 10) and then install `n` https://github.com/tj/n to manage Node.
 
 You might need to SSH again to the VM to see the latest node version with `node -v`.
+
+And don't forget to add your .env inside the `/api` folder :)
