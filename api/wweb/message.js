@@ -19,7 +19,7 @@ async function parseMessage(msg) {
        */
       const audioMedia = await msg.downloadMedia();
       const textMessage = await transcribeFile(audioMedia);
-      if (textMessage) msg.reply(textMessage);
+      if (textMessage) msg.reply(`Transcript: ${textMessage}`);
     }
   }
 }
